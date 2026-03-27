@@ -1,5 +1,7 @@
 # Obsidian Prism Lab
 
+[Live Site](https://obsidian-prism-lab.vercel.app)
+
 An immersive multi-page creative studio site with sculptural 3D branding, cinematic motion, gallery imagery, ambient audio, and a contact funnel.
 
 ## Pages
