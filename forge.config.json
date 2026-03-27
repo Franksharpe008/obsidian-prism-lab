@@ -1,0 +1,33 @@
+{
+  "projectName": "obsidian-prism-lab",
+  "targetPath": "/Users/franksharpe/Documents/New project/output/mint/workspaces/manual-obsidian-prism-lab-20260327115942",
+  "protectedPaths": [
+    "/Users/franksharpe/Documents/New project/docs",
+    "/Users/franksharpe/Documents/New project/scripts",
+    "/Users/franksharpe/.codex/MEMORY.md"
+  ],
+  "smoke": {
+    "route": "/",
+    "requiredText": []
+  },
+  "flows": [],
+  "lighthouse": {
+    "routes": ["/", "/about.html", "/services.html", "/contact.html"],
+    "thresholds": {
+      "performance": 80,
+      "accessibility": 90,
+      "bestPractices": 85,
+      "seo": 85
+    }
+  },
+  "accessibility": {
+    "routes": ["/", "/about.html", "/services.html", "/contact.html"]
+  },
+  "visual": {
+    "maxDiffPixelRatio": 0.02,
+    "breakpoints": [
+      { "name": "desktop", "width": 1440, "height": 1080, "fullPage": true },
+      { "name": "mobile", "width": 390, "height": 844, "fullPage": true }
+    ]
+  }
+}

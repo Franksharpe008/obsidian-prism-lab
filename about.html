@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Alchemists | Obsidian Prism Lab</title>
+    <meta name="description" content="Meet the architects of digital transmutation. The creative alchemists behind Obsidian Prism Lab's brand transformations.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="about-page">
+    <div class="noise-overlay"></div>
+    <div class="cursor-follower"></div>
+    
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="logo-link" aria-label="Obsidian Prism Lab Home">
+                <div class="logo-sculptural">
+                    <svg viewBox="0 0 100 100" class="logo-prism">
+                        <defs>
+                            <linearGradient id="prismGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+                                <stop offset="50%" style="stop-color:#1a1a2e;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+                            </linearGradient>
+                            <linearGradient id="prismGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#e94560;stop-opacity:0.9" />
+                                <stop offset="100%" style="stop-color:#0f3460;stop-opacity:0.9" />
+                            </linearGradient>
+                            <filter id="glow">
+                                <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur"/>
+                                    <feMergeNode in="SourceGraphic"/>
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        <polygon points="50,5 95,25 95,75 50,95 5,75 5,25" fill="url(#prismGrad1)" stroke="#e94560" stroke-width="0.5" class="prism-outer"/>
+                        <polygon points="50,20 80,35 80,65 50,80 20,65 20,35" fill="url(#prismGrad2)" class="prism-inner" filter="url(#glow)"/>
+                        <line x1="50" y1="5" x2="50" y2="95" stroke="#e94560" stroke-width="0.5" opacity="0.6"/>
+                        <line x1="5" y1="25" x2="95" y2="75" stroke="#e94560" stroke-width="0.5" opacity="0.6"/>
+                        <line x1="95" y1="25" x2="5" y2="75" stroke="#e94560" stroke-width="0.5" opacity="0.6"/>
+                    </svg>
+                </div>
+                <span class="logo-text">Obsidian<span class="logo-accent">Prism</span>Lab</span>
+            </a>
+            
+            <nav class="main-nav" role="navigation" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link" data-text="Manifesto">Manifesto</a></li>
+                    <li><a href="about.html" class="nav-link active" data-text="Alchemists">Alchemists</a></li>
+                    <li><a href="services.html" class="nav-link" data-text="Rituals">Rituals</a></li>
+                    <li><a href="contact.html" class="nav-link" data-text="Summon">Summon</a></li>
+                </ul>
+            </nav>
+            
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="page-hero about-hero">
+            <div class="hero-bg-pattern"></div>
+            <div class="page-hero-content">
+                <span class="page-eyebrow">The Architects</span>
+                <h1 class="page-title">We Are The <span class="title-accent">Alchemists</span></h1>
+                <p class="page-subtitle">Three practitioners of creative transmutation. United by obsession, divided by specialization, bound by the pursuit of perfect form.</p>
+            </div>
+        </section>
+
+        <section class="alchemists-grid" aria-label="Team members">
+            <article class="alchemist-card" data-alchemist="void">
+                <div class="alchemist-portrait">
+                    <div class="portrait-frame">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Marcus Chen - Creative Director" class="portrait-image" loading="lazy">
+                        <div class="portrait-overlay">
+                            <div class="alchemist-sigil">☉</div>
+                        </div>
+                    </div>
+                    <div class="portrait-prism">
+                        <div class="prism-edge edge-1"></div>
+                        <div class="prism-edge edge-2"></div>
+                        <div class="prism-edge edge-3"></div>
+                    </div>
+                </div>
+                <div class="alchemist-info">
+                    <header class="alchemist-header">
+                        <h2 class="alchemist-name">Marcus Chen</h2>
+                        <span class="alchemist-title">The Void Architect</span>
+                        <span class="alchemist-role">Creative Director</span>
+                    </header>
+                    <div class="alchemist-bio">
+                        <p>Marcus operates in the space between intention and execution. With 15 years navigating the intersection of brand strategy and visual systems, he specializes in finding the geometric truth hidden within chaotic briefs.</p>
+                        <p>Formerly: Design Director at Pentagram, Strategy Lead at Collins. Education: RISD, Yale School of Art.</p>
+                    </div>
+                    <div class="alchemist-philosophy">
+                        <blockquote>"Design isn't decoration. It's the crystallization of intent."</blockquote>
+                    </div>
+                    <div class="alchemist-domains">
+                        <span class="domain-tag">Brand Strategy</span>
+                        <span class="domain-tag">Visual Systems</span>
+                        <span class="domain-tag">Creative Direction</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="alchemist-card alchemist-reverse" data-alchemist="light">
+                <div class="alchemist-portrait">
+                    <div class="portrait-frame">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80" alt="Sofia Vasquez - Design Director" class="portrait-image" loading="lazy">
+                        <div class="portrait-overlay">
+                            <div class="alchemist-sigil">☽</div>
+                        </div>
+                    </div>
+                    <div class="portrait-prism">
+                        <div class="prism-edge edge-1"></div>
+                        <div class="prism-edge edge-2"></div>
+                        <div class="prism-edge edge-3"></div>
+                    </div>
+                </div>
+                <div class="alchemist-info">
+                    <header class="alchemist-header">
+                        <h2 class="alchemist-name">Sofia Vasquez</h2>
+                        <span class="alchemist-title">The Light Sculptor</span>
+                        <span class="alchemist-role">Design Director</span>
+                    </header>
+                    <div class="alchemist-bio">
+                        <p>Sofia bends light and form into narrative architecture. Her work exists at the intersection of editorial design, motion, and spatial experience—creating environments that tell stories through pure geometry.</p>
+                        <p>Formerly: Senior Designer at Apple, Art Director at Wieden+Kennedy. Recognition: ADC Young Guns, D&AD Pencil.</p>
+                    </div>
+                    <div class="alchemist-philosophy">
+                        <blockquote>"Every surface is a story waiting to be carved."</blockquote>
+                    </div>
+                    <div class="alchemist-domains">
+                        <span class="domain-tag">Visual Design</span>
+                        <span class="domain-tag">Motion Systems</span>
+                        <span class="domain-tag">Spatial Experience</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="alchemist-card" data-alchemist="sound">
+                <div class="alchemist-portrait">
+                    <div class="portrait-frame">
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&q=80" alt="James Okonkwo - Technical Director" class="portrait-image" loading="lazy">
+                        <div class="portrait-overlay">
+                            <div class="alchemist-sigil">☊</div>
+                        </div>
+                    </div>
+                    <div class="portrait-prism">
+                        <div class="prism-edge edge-1"></div>
+                        <div class="prism-edge edge-2"></div>
+                        <div class="prism-edge edge-3"></div>
+                    </div>
+                </div>
+                <div class="alchemist-info">
+                    <header class="alchemist-header">
+                        <h2 class="alchemist-name">James Okonkwo</h2>
+                        <span class="alchemist-title">The Frequency Weaver</span>
+                        <span class="alchemist-role">Technical Director</span>
+                    </header>
+                    <div class="alchemist-bio">
+                        <p>James engineers the invisible infrastructure of experience. From generative audio systems to interactive installations, he builds the technical skeletons that allow creative visions to stand and move.</p>
+                        <p>Formerly: Lead Developer at Ustwo, Creative Technologist at Google Creative Lab. Background: MIT Media Lab.</p>
+                    </div>
+                    <div class="alchemist-philosophy">
+                        <blockquote>"Technology is the new alchemy—base code transformed into gold."</blockquote>
+                    </div>
+                    <div class="alchemist-domains">
+                        <span class="domain-tag">Creative Technology</span>
+                        <span class="domain-tag">Interactive Systems</span>
+                        <span class="domain-tag">Sonic Architecture</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="origin-story" aria-labelledby="origin-heading">
+            <div class="section-container">
+                <div class="origin-grid">
+                    <div class="origin-visual">
+                        <div class="origin-timeline">
+                            <div class="timeline-line"></div>
+                            <div class="timeline-node" data-year="2019">
+                                <span class="node-year">2019</span>
+                                <span class="node-event">The Convergence</span>
+                            </div>
+                            <div class="timeline-node" data-year="2021">
+                                <span class="node-year">2021</span>
+                                <span class="node-event">First Crystallization</span>
+                            </div>
+                            <div class="timeline-node" data-year="2024">
+                                <span class="node-year">2024</span>
+                                <span class="node-event">The Laboratory Opens</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="origin-content">
+                        <h2 id="origin-heading" class="section-title">Origin <span class="title-highlight">Story</span></h2>
+                        <div class="origin-narrative">
+                            <p class="lead">We met in the ruins of a failed startup, three refugees from corporate creative departments seeking something harder to break.</p>
+                            <p>Marcus brought the strategy. Sofia brought the vision. James brought the code. Together, we discovered a shared obsession with <strong>pressure</strong>—the belief that creative work only achieves its final form under specific, intense conditions.</p>
+                            <p>Obsidian Prism Lab was born from this philosophy: that brands, like volcanic glass, must be forged in heat and cooled under pressure to achieve their sharpest, most durable form.</p>
+                            <p>We don't have clients. We have <em>collaborators</em> willing to enter the furnace with us.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="values-chamber" aria-label="Studio values">
+            <div class="section-container">
+                <h2 class="section-title centered">Our <span class="title-highlight">Covenant</span></h2>
+                <div class="values-constellation">
+                    <div class="value-star" data-value="pressure">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                        </div>
+                        <h3 class="value-title">Pressure Creates</h3>
+                        <p class="value-desc">We embrace constraint as fuel. Tight timelines, limited budgets, complex problems—these are the conditions where brilliance crystallizes.</p>
+                    </div>
+                    <div class="value-star" data-value="darkness">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                        </div>
+                        <h3 class="value-title">Darkness First</h3>
+                        <p class="value-desc">We begin in the void. No preconceptions, no templates, no safe choices. Every project starts as a blank abyss we fill with intention.</p>
+                    </div>
+                    <div class="value-star" data-value="geometry">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        </div>
+                        <h3 class="value-title">Geometry Over Decoration</h3>
+                        <p class="value-desc">Form follows function follows feeling. Every element exists for a reason. Ornaments are stripped until only essential structure remains.</p>
+                    </div>
+                    <div class="value-star" data-value="transmutation">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 3v18m-9-9h18M5.64 5.64l12.72 12.72m0-12.72L5.64 18.36"/></svg>
+                        </div>
+                        <h3 class="value-title">Transmutation Not Translation</h3>
+                        <p class="value-desc">We don't execute briefs. We transform them. The final work should be unrecognizable from the starting point—yet inevitable in retrospect.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="section-container">
+                <div class="cta-content centered">
+                    <h2 class="cta-title">Join The <span class="glitch-text">Laboratory</span></h2>
+                    <p class="cta-subtitle">We're always seeking new alchemists. If you transmute rather than translate, we should talk.</p>
+                    <a href="contact.html" class="btn btn-primary">Apply for Convergence</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <svg viewBox="0 0 100 100" class="logo-mini">
+                        <polygon points="50,10 90,30 90,70 50,90 10,70 10,30" fill="none" stroke="#e94560" stroke-width="2"/>
+                        <polygon points="50,25 75,37 75,63 50,75 25,63 25,37" fill="#e94560" opacity="0.3"/>
+                    </svg>
+                </div>
+                <p class="footer-tagline">Forging digital obsidian since 2024.</p>
+            </div>
+            
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <div class="footer-col">
+                    <p class="footer-heading">Navigate</p>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Manifesto</a></li>
+                        <li><a href="about.html">Alchemists</a></li>
+                        <li><a href="services.html">Rituals</a></li>
+                        <li><a href="contact.html">Summon</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p class="footer-heading">Connect</p>
+                    <ul class="footer-links">
+                        <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                        <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+                        <li><a href="#" aria-label="Behance">Behance</a></li>
+                        <li><a href="mailto:forge@obsidianprism.lab">forge@obsidianprism.lab</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2024 Obsidian Prism Lab. All realities reserved.</p>
+            <p class="footer-credit">Designed in the dark. Forged in light.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>

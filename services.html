@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rituals | Obsidian Prism Lab Services</title>
+    <meta name="description" content="Our creative rituals: Brand Transmutation, Digital Sculpting, Sonic Architecture, and Immersive Environments. Premium creative services for visionary brands.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="services-page">
+    <div class="noise-overlay"></div>
+    <div class="cursor-follower"></div>
+    
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="logo-link" aria-label="Obsidian Prism Lab Home">
+                <div class="logo-sculptural">
+                    <svg viewBox="0 0 100 100" class="logo-prism">
+                        <defs>
+                            <linearGradient id="prismGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+                                <stop offset="50%" style="stop-color:#1a1a2e;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+                            </linearGradient>
+                            <linearGradient id="prismGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#e94560;stop-opacity:0.9" />
+                                <stop offset="100%" style="stop-color:#0f3460;stop-opacity:0.9" />
+                            </linearGradient>
+                            <filter id="glow">
+                                <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur"/>
+                                    <feMergeNode in="SourceGraphic"/>
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        <polygon points="50,5 95,25 95,75 50,95 5,75 5,25" fill="url(#prismGrad1)" stroke="#e94560" stroke-width="0.5" class="prism-outer"/>
+                        <polygon points="50,20 80,35 80,65 50,80 20,65 20,35" fill="url(#prismGrad2)" class="prism-inner" filter="url(#glow)"/>
+                        <line x1="50" y1="5" x2="50" y2="95" stroke="#e94560" stroke-width="0.5" opacity="0.6"/>
+                        <line x1="5" y1="25" x2="95" y2="75" stroke="#e94560" stroke-width="0.5" opacity="0.6"/>
+                        <line x1="95" y1="25" x2="5" y2="75" stroke="#e94560" stroke-width="0.5" opacity="0.6"/>
+                    </svg>
+                </div>
+                <span class="logo-text">Obsidian<span class="logo-accent">Prism</span>Lab</span>
+            </a>
+            
+            <nav class="main-nav" role="navigation" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link" data-text="Manifesto">Manifesto</a></li>
+                    <li><a href="about.html" class="nav-link" data-text="Alchemists">Alchemists</a></li>
+                    <li><a href="services.html" class="nav-link active" data-text="Rituals">Rituals</a></li>
+                    <li><a href="contact.html" class="nav-link" data-text="Summon">Summon</a></li>
+                </ul>
+            </nav>
+            
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="page-hero services-hero">
+            <div class="hero-bg-geometry"></div>
+            <div class="page-hero-content">
+                <span class="page-eyebrow">Our Methods</span>
+                <h1 class="page-title">The <span class="title-accent">Rituals</span></h1>
+                <p class="page-subtitle">Four paths of transmutation. Each ritual is a complete process of creative pressure, cooling, and crystallization.</p>
+            </div>
+        </section>
+
+        <section class="rituals-timeline" aria-label="Service offerings">
+            <div class="ritual-node" data-ritual="brand">
+                <div class="ritual-marker">
+                    <span class="marker-number">01</span>
+                    <div class="marker-prism">
+                        <div class="prism-face"></div>
+                    </div>
+                </div>
+                <div class="ritual-content">
+                    <div class="ritual-visual">
+                        <img src="https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=1000&q=80" alt="Brand Transmutation - Abstract brand identity visualization with crystalline structures" class="ritual-image" loading="lazy">
+                        <div class="ritual-audio">
+                            <button class="audio-trigger" aria-label="Play brand frequency">
+                                <svg viewBox="0 0 24 24" class="audio-icon"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+                            </button>
+                            <audio class="ritual-audio-player" loop>
+                                <source src="https://www.soundjay.com/misc/sounds-767.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="ritual-text">
+                        <h2 class="ritual-title">Brand <span class="title-highlight">Transmutation</span></h2>
+                        <p class="ritual-lead">Complete identity reconstruction. We don't refresh brands—we recast them.</p>
+                        <div class="ritual-deliverables">
+                            <h3>Deliverables:</h3>
+                            <ul class="deliverables-list">
+                                <li>Strategic positioning & narrative architecture</li>
+                                <li>Visual identity systems (logo, typography, color)</li>
+                                <li>Brand guidelines & governance</li>
+                                <li>Launch strategy & asset packages</li>
+                            </ul>
+                        </div>
+                        <div class="ritual-process">
+                            <h3>The Process:</h3>
+                            <ol class="process-steps">
+                                <li><span class="step-num">1.</span> Deconstruction — Audit existing equity</li>
+                                <li><span class="step-num">2.</span> Pressure — Strategic compression</li>
+                                <li><span class="step-num">3.</span> Cooling — Visual system development</li>
+                                <li><span class="step-num">4.</span> Polishing — Asset production & guidelines</li>
+                            </ol>
+                        </div>
+                        <div class="ritual-investment">
+                            <span class="investment-label">Investment:</span>
+                            <span class="investment-range">$75,000 — $250,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ritual-node" data-ritual="digital">
+                <div class="ritual-marker">
+                    <span class="marker-number">02</span>
+                    <div class="marker-prism">
+                        <div class="prism-face"></div>
+                    </div>
+                </div>
+                <div class="ritual-content ritual-reverse">
+                    <div class="ritual-visual">
+                        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1000&q=80" alt="Digital Sculpting - Futuristic digital interface design" class="ritual-image" loading="lazy">
+                    </div>
+                    <div class="ritual-text">
+                        <h2 class="ritual-title">Digital <span class="title-highlight">Sculpting</span></h2>
+                        <p class="ritual-lead">Interface as architecture. We build digital environments that feel inhabited, not visited.</p>
+                        <div class="ritual-deliverables">
+                            <h3>Deliverables:</h3>
+                            <ul class="deliverables-list">
+                                <li>UX/UI design systems</li>
+                                <li>Interactive prototypes & motion design</li>
+                                <li>Design systems & component libraries</li>
+                                <li>Frontend development (React, WebGL)</li>
+                            </ul>
+                        </div>
+                        <div class="ritual-process">
+                            <h3>The Process:</h3>
+                            <ol class="process-steps">
+                                <li><span class="step-num">1.</span> Excavation — User research & journey mapping</li>
+                                <li><span class="step-num">2.</span> Roughing — Wireframing & structure</li>
+                                <li><span class="step-num">3.</span> Detailing — High-fidelity design</li>
+                                <li><span class="step-num">4.</span> Installation — Development & deployment</li>
+                            </ol>
+                        </div>
+                        <div class="ritual-investment">
+                            <span class="investment-label">Investment:</span>
+                            <span class="investment-range">$50,000 — $200,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ritual-node" data-ritual="sonic">
+                <div class="ritual-marker">
+                    <span class="marker-number">03</span>
+                    <div class="marker-prism">
+                        <div class="prism-face"></div>
+                    </div>
+                </div>
+                <div class="ritual-content">
+                    <div class="ritual-visual">
+                        <img src="https://images.unsplash.com/photo-1515462277126-2dd0c162007a?w=1000&q=80" alt="Sonic Architecture - Abstract sound wave visualization" class="ritual-image" loading="lazy">
+                        <div class="ritual-audio">
+                            <button class="audio-trigger" aria-label="Play sonic sample">
+                                <svg viewBox="0 0 24 24" class="audio-icon"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+                            </button>
+                            <audio class="ritual-audio-player" loop>
+                                <source src="https://www.soundjay.com/misc/sounds-767.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="ritual-text">
+                        <h2 class="ritual-title">Sonic <span class="title-highlight">Architecture</span></h2>
+                        <p class="ritual-lead">Sound as structural element. We design audio environments that complete the sensory experience.</p>
+                        <div class="ritual-deliverables">
+                            <h3>Deliverables:</h3>
+                            <ul class="deliverables-list">
+                                <li>Sonic branding & audio logos</li>
+                                <li>Environmental sound design</li>
+                                <li>Interactive audio systems</li>
+                                <li>Voice & sonic UI design</li>
+                            </ul>
+                        </div>
+                        <div class="ritual-process">
+                            <h3>The Process:</h3>
+                            <ol class="process-steps">
+                                <li><span class="step-num">1.</span> Tuning — Brand frequency analysis</li>
+                                <li><span class="step-num">2.</span> Composition — Sonic palette creation</li>
+                                <li><span class="step-num">3.</span> Arrangement — Environmental integration</li>
+                                <li><span class="step-num">4.</span> Mastering — Technical optimization</li>
+                            </ol>
+                        </div>
+                        <div class="ritual-investment">
+                            <span class="investment-label">Investment:</span>
+                            <span class="investment-range">$25,000 — $100,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ritual-node" data-ritual="immersive">
+                <div class="ritual-marker">
+                    <span class="marker-number">04</span>
+                    <div class="marker-prism">
+                        <div class="prism-face"></div>
+                    </div>
+                </div>
+                <div class="ritual-content ritual-reverse">
+                    <div class="ritual-visual">
+                        <img src="https://images.unsplash.com/photo-1592478411213-61535fdd861d?w=1000&q=80" alt="Immersive Environments - Spatial installation view" class="ritual-image" loading="lazy">
+                    </div>
+                    <div class="ritual-text">
+                        <h2 class="ritual-title">Immersive <span class="title-highlight">Environments</span></h2>
+                        <p class="ritual-lead">Physical spaces transformed by digital layers. Pop-ups, installations, and experiential architecture.</p>
+                        <div class="ritual-deliverables">
+                            <h3>Deliverables:</h3>
+                            <ul class="deliverables-list">
+                                <li>Spatial concept & narrative design</li>
+                                <li>Interactive installation design</li>
+                                <li>Projection mapping & LED integration</li>
+                                <li>Technical production & installation</li>
+                            </ul>
+                        </div>
+                        <div class="ritual-process">
+                            <h3>The Process:</h3>
+                            <ol class="process-steps">
+                                <li><span class="step-num">1.</span> Surveying — Space analysis & constraints</li>
+                                <li><span class="step-num">2.</span> Blueprinting — Technical & creative design</li>
+                                <li><span class="step-num">3.</span> Fabrication — Physical & digital build</li>
+                                <li><span class="step-num">4.</span> Activation — Installation & live operation</li>
+                            </ol>
+                        </div>
+                        <div class="ritual-investment">
+                            <span class="investment-label">Investment:</span>
+                            <span class="investment-range">$100,000 — $500,000+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="process-lab" aria-labelledby="process-heading">
+            <div class="section-container">
+                <h2 id="process-heading" class="section-title centered">The <span class="title-highlight">Laboratory</span> Process</h2>
+                <div class="lab-stages">
+                    <div class="lab-stage" data-stage="intake">
+                        <div class="stage-icon">
+                            <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+                        </div>
+                        <h3 class="stage-title">01. Intake</h3>
+                        <p class="stage-desc">Deep diagnostic. We audit your current state, competitive landscape, and hidden opportunities.</p>
+                    </div>
+                    <div class="stage-connector"></div>
+                    <div class="lab-stage" data-stage="pressure">
+                        <div class="stage-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                        </div>
+                        <h3 class="stage-title">02. Pressure</h3>
+                        <p class="stage-desc">Strategic compression. We apply constraints to force clarity and reveal essential structure.</p>
+                    </div>
+                    <div class="stage-connector"></div>
+                    <div class="lab-stage" data-stage="forge">
+                        <div class="stage-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 2l-5.5 9h11z M12 5.84L13.5 9h-3L12 5.84 M17.5 9c-2.49 0-4.5 2.01-4.5 4.5s2.01 4.5 4.5 4.5 4.5-2.01 4.5-4.5-2.01-4.5-4.5-4.5z M5 9c-2.49 0-4.5 2.01-4.5 4.5S2.51 18 5 18s4.5-2.01 4.5-4.5S7.49 9 5 9z"/></svg>
+                        </div>
+                        <h3 class="stage-title">03. Forge</h3>
+                        <p class="stage-desc">Creative execution. Design, development, and content production in intensive sprints.</p>
+                    </div>
+                    <div class="stage-connector"></div>
+                    <div class="lab-stage" data-stage="polish">
+                        <div class="stage-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <h3 class="stage-title">04. Polish</h3>
+                        <p class="stage-desc">Refinement & testing. Quality assurance, optimization, and preparation for launch.</p>
+                    </div>
+                    <div class="stage-connector"></div>
+                    <div class="lab-stage" data-stage="release">
+                        <div class="stage-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                        </div>
+                        <h3 class="stage-title">05. Release</h3>
+                        <p class="stage-desc">Deployment & support. Launch activation and ongoing partnership for evolution.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="engagement-models" aria-label="Engagement options">
+            <div class="section-container">
+                <h2 class="section-title centered">Engagement <span class="title-highlight">Models</span></h2>
+                <div class="models-grid">
+                    <article class="model-card">
+                        <h3 class="model-name">The Single Ritual</h3>
+                        <p class="model-desc">One complete transmutation. Best for specific, defined projects with clear deliverables.</p>
+                        <ul class="model-features">
+                            <li>Fixed scope & timeline</li>
+                            <li>Defined deliverables</li>
+                            <li>Single payment or milestones</li>
+                            <li>30-day post-launch support</li>
+                        </ul>
+                    </article>
+                    <article class="model-card model-featured">
+                        <div class="model-badge">Recommended</div>
+                        <h3 class="model-name">The Alchemical Partnership</h3>
+                        <p class="model-desc">Ongoing collaboration. We become your embedded creative department for continuous evolution.</p>
+                        <ul class="model-features">
+                            <li>Monthly retainer structure</li>
+                            <li>Priority scheduling</li>
+                            <li>Strategic advisory included</li>
+                            <li>Unlimited micro-adjustments</li>
+                            <li>Quarterly brand health audits</li>
+                        </ul>
+                    </article>
+                    <article class="model-card">
+                        <h3 class="model-name">The Emergency Forge</h3>
+                        <p class="model-desc">High-pressure, fast-turnaround intervention for critical moments and crisis response.</p>
+                        <ul class="model-features">
+                            <li>2-week sprint cycles</li>
+                            <li>24-hour response guarantee</li>
+                            <li>War room intensity</li>
+                            <li>Premium pricing applies</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section dark">
+            <div class="section-container">
+                <div class="cta-content centered">
+                    <h2 class="cta-title">Ready to Enter The <span class="glitch-text">Furnace</span>?</h2>
+                    <p class="cta-subtitle">Every masterpiece begins with a single point of pressure. Let's find yours.</p>
+                    <a href="contact.html" class="btn btn-cta">Begin The Ritual</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <svg viewBox="0 0 100 100" class="logo-mini">
+                        <polygon points="50,10 90,30 90,70 50,90 10,70 10,30" fill="none" stroke="#e94560" stroke-width="2"/>
+                        <polygon points="50,25 75,37 75,63 50,75 25,63 25,37" fill="#e94560" opacity="0.3"/>
+                    </svg>
+                </div>
+                <p class="footer-tagline">Forging digital obsidian since 2024.</p>
+            </div>
+            
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <div class="footer-col">
+                    <p class="footer-heading">Navigate</p>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Manifesto</a></li>
+                        <li><a href="about.html">Alchemists</a></li>
+                        <li><a href="services.html">Rituals</a></li>
+                        <li><a href="contact.html">Summon</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p class="footer-heading">Connect</p>
+                    <ul class="footer-links">
+                        <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                        <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+                        <li><a href="#" aria-label="Behance">Behance</a></li>
+                        <li><a href="mailto:forge@obsidianprism.lab">forge@obsidianprism.lab</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2024 Obsidian Prism Lab. All realities reserved.</p>
+            <p class="footer-credit">Designed in the dark. Forged in light.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>

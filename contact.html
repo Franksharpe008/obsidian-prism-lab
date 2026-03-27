@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Obsidian Prism Lab</title>
+  <meta name="description" content="Begin a creative transmission with Obsidian Prism Lab. Share your brand, campaign, or immersive build brief and enter the forge.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="contact-page">
+  <div class="noise-overlay"></div>
+  <div class="cursor-follower"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo-link" aria-label="Obsidian Prism Lab Home">
+        <div class="logo-sculptural">
+          <svg viewBox="0 0 100 100" class="logo-prism" aria-hidden="true">
+            <defs>
+              <linearGradient id="contactPrismGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+                <stop offset="50%" style="stop-color:#1a1a2e;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+              </linearGradient>
+              <linearGradient id="contactPrismGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color:#e94560;stop-opacity:0.9" />
+                <stop offset="100%" style="stop-color:#0f3460;stop-opacity:0.9" />
+              </linearGradient>
+            </defs>
+            <polygon points="50,5 95,25 95,75 50,95 5,75 5,25" fill="url(#contactPrismGrad1)" stroke="#e94560" stroke-width="0.5"/>
+            <polygon points="50,20 80,35 80,65 50,80 20,65 20,35" fill="url(#contactPrismGrad2)"/>
+          </svg>
+        </div>
+        <span class="logo-text">Obsidian<span class="logo-accent">Prism</span>Lab</span>
+      </a>
+
+      <nav class="main-nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link" data-text="Manifesto">Manifesto</a></li>
+          <li><a href="about.html" class="nav-link" data-text="Alchemists">Alchemists</a></li>
+          <li><a href="services.html" class="nav-link" data-text="Rituals">Rituals</a></li>
+          <li><a href="contact.html" class="nav-link active" data-text="Summon">Summon</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="hero-cinematic" aria-labelledby="contact-heading">
+      <div class="hero-video-container">
+        <video autoplay muted loop playsinline class="hero-video" poster="https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=1600&q=80">
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-city-traffic-at-night-11-large.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-eyebrow">OPEN CHANNEL — CREATIVE TRANSMISSION</div>
+        <h1 id="contact-heading" class="hero-title">
+          <span class="title-line" data-text="Summon the">Summon the</span>
+          <span class="title-line title-accent" data-text="Forge">Forge</span>
+        </h1>
+        <p class="hero-subtitle">Share the brief, the pressure point, and the scale of the build. We will return with a sharper form, stronger motion, and a cleaner market signal.</p>
+      </div>
+    </section>
+
+    <section class="manifesto-section" aria-labelledby="contact-form-heading">
+      <div class="section-container">
+        <div class="manifesto-grid">
+          <div class="manifesto-content">
+            <h2 id="contact-form-heading" class="section-title">Begin the <span class="title-highlight">Transmission</span></h2>
+            <p class="lead">Projects move fastest when the ambition is clear. Tell us what needs to be transformed, who it must move, and what kind of edge you want it to create.</p>
+            <form class="contact-form-surface">
+              <label class="form-field">
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your name" required>
+              </label>
+              <label class="form-field">
+                <span>Email</span>
+                <input type="email" name="email" placeholder="you@example.com" required>
+              </label>
+              <label class="form-field">
+                <span>Project Type</span>
+                <select name="projectType">
+                  <option>Brand world</option>
+                  <option>Campaign system</option>
+                  <option>Immersive website</option>
+                  <option>Launch film and motion</option>
+                </select>
+              </label>
+              <label class="form-field">
+                <span>Signal Brief</span>
+                <textarea name="brief" rows="6" placeholder="What are we forging?" required></textarea>
+              </label>
+              <button type="submit" class="btn btn-primary">
+                <span class="btn-text">Transmit Brief</span>
+                <span class="btn-shine"></span>
+              </button>
+            </form>
+          </div>
+
+          <div class="manifesto-visual">
+            <div class="contact-card-stack">
+              <article class="work-item work-featured">
+                <div class="work-visual">
+                  <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=900&q=80" alt="Sculptural metallic prism floating in darkness" class="work-image" loading="lazy">
+                  <div class="work-overlay">
+                    <div class="work-audio-surface">
+                      <button class="audio-play-btn" aria-label="Play ambience">
+                        <svg viewBox="0 0 24 24" class="audio-icon">
+                          <path d="M8 5v14l11-7z"></path>
+                        </svg>
+                      </button>
+                      <audio class="project-audio" loop>
+                        <source src="https://www.soundjay.com/misc/sounds-767.mp3" type="audio/mpeg">
+                      </audio>
+                      <span class="audio-label">Atmosphere Layer</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="work-meta">
+                  <span class="work-category">Direct Channel</span>
+                  <h3 class="work-title">forge@obsidianprism.lab</h3>
+                  <p class="work-desc">48-hour review window for brand, motion, and immersive build requests.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="copyright">&copy; 2026 Obsidian Prism Lab. All realities reserved.</p>
+      <p class="footer-credit">Designed in the dark. Forged in light.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
